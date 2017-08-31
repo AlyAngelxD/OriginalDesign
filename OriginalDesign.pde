@@ -45,7 +45,10 @@ void wings()
   //bezier(250, 250, 250, 275, 375, 300, 450, 150);
   //line(250, 250, 450, 150);
   ellipse(350,250,150,40);
+  translate(250,250);
+  rotate(PI);
+  strokeWeight(10);
   ellipse(350,275,120,35);
-  ellipse(350,300,80,30);
+  // ellipse(350,300,80,30);
   //left wing
 }
